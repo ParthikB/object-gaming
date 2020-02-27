@@ -4,7 +4,7 @@ A Game controller using Object-Detection **under progress*
 **File Tree:**     
 
       object_detection/
-            ├── *main.py*
+            ├── main.py
             |
             ├── data/
             │    ├── images/
@@ -25,10 +25,10 @@ A Game controller using Object-Detection **under progress*
                  ├─ research/   
                  │    ├── object_detection/
                  │    │      ├── utils/
-                 |    |      |     ├── *visualization_utils.py*
+                 |    |      |     ├── visualization_utils.py
                  |    |      |                              
-                 │    │      ├── *game_utils.py*
-                 │    │      ├── *webcam_interface.py*
+                 │    │      ├── game_utils.py
+                 │    │      ├── webcam_interface.py
                  │    │      └── ...
                  │    │                       
                  │    └── ...
