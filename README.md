@@ -1,7 +1,35 @@
 # object-gaming
 A Game controller using Object-Detection **under progress*
 
-Files' Path:
-1. *game_utils.py* : research/object_detection/
-2. *webcam_interface.py* : research/object_detection/
-3. *visualization_utils.py* : research/object_detection/utils/
+**File Tree:**     
+
+object_detection/
+      ├── *main.py*
+      |
+      ├── data/
+      │    ├── images/
+      │    │      └── ...
+      │    ├── annotations/
+      │    │      └── ...
+      │    ├── train_labels/
+      │    │      └── ...
+      │    ├── test_labels/
+      │    │      └── ...
+      │    ├── label_map.pbtxt
+      │    ├── test_labels.csv
+      │    ├── train_labels.csv
+      │    ├── test_labels.records
+      │    └── train_labels.records
+      │
+      └── models/           
+           ├─ research/   
+           │    ├── object_detection/
+           │    │      ├── utils/
+           |    |      |     ├── *visualization_utils.py*
+           |    |      |                              
+           │    │      ├── *game_utils.py*
+           │    │      ├── *webcam_interface.py*
+           │    │      └── ...
+           │    │                       
+           │    └── ...
+           └── ...
