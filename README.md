@@ -1,10 +1,5 @@
-# Simple object tracking with OpenCV
-### Tracks the objects given their bouding boxes
-
-Amazing yet simple object tracker built entirely with OpenCV
-
-All thanks to Adrian Rosebrock (from [pyimagesearch](https://www.pyimagesearch.com/)) for making
-great tutorials. This project is inspired from his blog: [Simple object tracking with OpenCV](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/). I have included the author's code and the one i wrote my self as well.
+A Deep Learning based game controller that tracks the movements of the player using the
+webcam and then maps it to the game controls (customizable).
 
 ## **Key Points**
 1. Steps involved:
@@ -27,17 +22,6 @@ great tutorials. This project is inspired from his blog: [Simple object tracking
  2. opencv          (4.1.0)
  3. numpy           (1.61.4)
  4. imutils         (0.5.2)
-
- ## **Commands to run the detection:**
- ```
- python object_tracker.py --prototxt deploy.prototxt \
-	--model res10_300x300_ssd_iter_140000.caffemodel
-```
-
-## **Results:**
-The results are awesome. We are successfully able to detect and track the objects in the video stream via webcam.
-
-![Gif of object tracking](animation.gif)
 
 
 ## **The limitations**
